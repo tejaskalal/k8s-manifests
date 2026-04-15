@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: tejaskalal/worker:ea09932b907c76ff72dfc8085139cfa8d73bb153
+          image: tejaskalal/worker:841e163d03707a99840065acf76c83e7f1287af8
           env:
             - name: REDIS_HOST
               value: redis

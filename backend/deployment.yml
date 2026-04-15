@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: tejaskalal/backend:ea09932b907c76ff72dfc8085139cfa8d73bb153
+          image: tejaskalal/backend:841e163d03707a99840065acf76c83e7f1287af8
           ports:
             - containerPort: 80
           env:
