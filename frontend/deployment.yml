@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: tejaskalal/frontend:66fdeb3d6b30ed1723752a804cd19f7f95dbf115
+          image: tejaskalal/frontend:180b5a88b7cac8ab001c91de9ae39bae49257ab0
           ports:
             - containerPort: 80
           # Add backend URL (IMPORTANT)
